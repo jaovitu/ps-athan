@@ -1,0 +1,21 @@
+{
+  "name": "chatbot-ps",
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "@twilio/runtime-handler": "1.2.4",
+    "cpf-cnpj-validator": "^1.0.3",
+    "twilio": "^3.56"
+  },
+  "devDependencies": {
+    "twilio-run": "^3.4.3"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
